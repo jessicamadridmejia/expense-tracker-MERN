@@ -1,0 +1,10 @@
+1. Install dependencies
+npm i express dotenv mongoose colors morgan
+
+2. Install dev dependencies
+npm i -D nodemon concurrently
+
+concurrently: allow us to run backend server in one port and react dev server on another port at the same time with one single npm script
+
+3. Start the server
+npm run server
